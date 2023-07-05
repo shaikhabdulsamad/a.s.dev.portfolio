@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	padding:0px;
+	box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
 
@@ -107,28 +108,33 @@ h1{
 	margin-top: 30px
 }
 
-.projs{
+/* .projs{
 	
 	
 	
-}
+} */
 .projs1{
-	width:100%;
+
 	display:flex;
 	justify-content:space-between;
-	margin:25px 0px;
+	/* margin:25px 0px; */
+	flex-wrap: wrap;
+	
 	
 }
 .projects{
 	margin:100px 0 150px 0;
 }
 .project{
-	width:45%;
+	box-sizing: border-box;
+	width:49.5%;
 	border-image: linear-gradient(to right, rgb(143,93,214), rgb(24,169,198)) 30;
 border-width: 2px;
 border-style: solid;
 
 	padding:20px;
+	margin-top: 10px;
+	
 
 }
 
@@ -174,11 +180,14 @@ border-style: solid;
 	
 }
 .me{
-	display:flex
+	display:flex;
+	justify-content: space-between;
 }
 .me div{
-	flex:1;
-	padding:0px 20px;
+	
+	box-sizing: border-box;
+	width: 23%;
+	/* padding:0px 20px; */
 	
 }
 .me>div>h5{
@@ -245,10 +254,42 @@ flex:1
 
 
 @media only screen and (max-width: 1024px){
-	
+
+li{
+	font-size: 24px;
+}
+ul li a{
+	font-size:30px !important;
+}	
+
+button{
+	font-size: 30px !important;
+}
+
+h1{
+	font-size: 70px;
+}
+
+h2{
+	font-size: 50px;
+}
+h3{
+	font-size: 40px;
+}
+
+h5{
+	font-size: 30px !important;
+}
+
+.technology span{
+	font-size: 20px !important;
+} 
+p{
+	font-size: 14px !important;
+}
 .container{
 
-	padding: 0px 10px;
+	padding: 0px 40px;
 }
 
 .navbar{
@@ -262,9 +303,7 @@ justify-content:center;
 align-items:center;
 }
 
-.intro>h1{
-  text-align:center;
-}
+
 
 .pic img {
 	margin-top: 80px;
@@ -289,9 +328,7 @@ align-items:center;
 	justify-content:center;
 align-items:center;
 }
-h1{
-	font-size:36px;
-}
+
 
 .projs{
 display:flex;
@@ -308,7 +345,7 @@ align-items:center;
 }
 
 .project{
-width: 90%;
+width: 100%;
 margin-bottom:20px;
 }
 
@@ -318,6 +355,7 @@ margin-bottom:20px;
 
 .me div{
 	
+	width: 100%;
 	padding:0px ;
 	
 }
@@ -375,6 +413,26 @@ justify-content:space-around;
 .flss ul li a, .nbss ul li a{
 	text-decoration:none;
 	color:white;
+}
+
+.footersocial ul{
+	margin-right:100px;
+	margin-left: 100px;
+}
+.contact{
+	margin-left: 100px;
+}
+
+.bar{
+	height: 20px !important;
+}
+
+.pic>img{
+	height: 500px;
+	width: 500px;
+}
+.intro h1{
+	line-height: 100px;
 }
 }
 
