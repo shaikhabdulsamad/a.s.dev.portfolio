@@ -204,6 +204,7 @@ border-style: solid;
 
 .footer{
 	display:flex;
+
 padding-bottom:30px
 }
 .footerlinks{
@@ -255,18 +256,18 @@ flex:1
 
 @media only screen and (max-width: 1024px){
 
-li{
+/* li{
 	font-size: 24px;
-}
-ul li a{
+} */
+/* ul li a{
 	font-size:30px !important;
-}	
+}	 */
 
-button{
+/* button{
 	font-size: 30px !important;
-}
+} */
 
-h1{
+/* h1{
 	font-size: 70px;
 }
 
@@ -279,14 +280,14 @@ h3{
 
 h5{
 	font-size: 30px !important;
-}
-
+} */
+/* 
 .technology span{
 	font-size: 20px !important;
 } 
 p{
 	font-size: 14px !important;
-}
+} */
 .container{
 
 	padding: 0px 40px;
@@ -378,10 +379,10 @@ margin-bottom:20px;
 	
 }
 
-.footersocial ul{
-	display:flex;
-margin-left:20px
-}
+ .footersocial ul{
+	/* display: flex; */
+	margin-left: 50px;
+} 
 
 
 
@@ -415,29 +416,30 @@ justify-content:space-around;
 	color:white;
 }
 
-.footersocial ul{
-	margin-right:100px;
-	margin-left: 100px;
+.footersocial ul li{
+	/* margin-right:50px;
+	margin-left: 100px; */
+	padding: 10px;
 }
-.contact{
-	margin-left: 100px;
-}
+/* .contact{
+	margin-left: 50px;
+} */
 
-.bar{
+/* .bar{
 	height: 20px !important;
-}
+} */
 
-.pic>img{
+/* .pic>img{
 	height: 500px;
 	width: 500px;
-}
-.intro h1{
+} */
+/* .intro h1{
 	line-height: 100px;
-}
+} */
 
-.me p{
+/* .me p{
 	font-size: 14px !important;
-}
+} */
 
 }
 
